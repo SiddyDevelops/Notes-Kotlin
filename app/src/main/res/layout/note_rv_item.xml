@@ -16,6 +16,7 @@
             android:id="@+id/idTVNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="@string/note_title"
             android:textColor="@color/white"
             android:layout_toStartOf="@id/idIVDelete"

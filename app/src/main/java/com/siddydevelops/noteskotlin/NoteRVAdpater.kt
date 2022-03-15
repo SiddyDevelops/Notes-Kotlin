@@ -25,7 +25,7 @@ class NoteRVAdpater(
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.noteTV.text = allNotes[position].noteTitle
-        holder.noteTV.text = "Last Updated: " + allNotes[position].timestamp
+        holder.timeTV.text = "Last Updated: " + allNotes[position].timestamp
 
         holder.deleteIV.setOnClickListener{
             noteClickDeleteInterface.onDeleteIconClick(allNotes[position])
