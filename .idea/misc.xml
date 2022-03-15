@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/siddh/AndroidStudioProjects/NotesKotlin/app/src/main/res/drawable/bg_custom_button.xml" value="0.138" />
+        <entry key="..\:/Users/siddh/AndroidStudioProjects/NotesKotlin/app/src/main/res/layout/activity_add_edit_note.xml" value="0.264" />
         <entry key="..\:/Users/siddh/AndroidStudioProjects/NotesKotlin/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/siddh/AndroidStudioProjects/NotesKotlin/app/src/main/res/layout/note_rv_item.xml" value="0.4" />
       </map>

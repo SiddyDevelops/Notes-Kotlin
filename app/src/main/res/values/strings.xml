@@ -4,4 +4,7 @@
     <string name="note_title">Note Title</string>
     <string name="delete_note">Delete Note</string>
     <string name="timestamp">TimeStamp</string>
+    <string name="enter_a_notetitle">Enter a NoteTitle</string>
+    <string name="enter_note_description">Enter Note Description</string>
+    <string name="button">Button</string>
 </resources>
