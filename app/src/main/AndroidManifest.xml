@@ -11,9 +11,11 @@
         android:theme="@style/Theme.NotesKotlin">
         <activity
             android:name=".AddEditNoteActivity"
+            android:label="Add/Edit Your Notes"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="Your Notes"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
