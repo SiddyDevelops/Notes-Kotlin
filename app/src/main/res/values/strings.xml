@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">NotesKotlin</string>
     <string name="add_note_button">Add Note Button</string>
+    <string name="note_title">Note Title</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="timestamp">TimeStamp</string>
 </resources>
