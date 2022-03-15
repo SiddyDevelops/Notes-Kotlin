@@ -8,13 +8,16 @@
     tools:context=".AddEditNoteActivity">
 
     <EditText
+        android:id="@+id/idEditNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/idEditNote"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
         android:hint="@string/enter_a_notetitle"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:layout_margin="18dp"/>
+        android:textColorHint="@color/white_hint" />
 
     <EditText
         android:layout_width="match_parent"
@@ -23,17 +26,18 @@
         android:hint="@string/enter_note_description"
         android:layout_below="@id/idEditNote"
         android:layout_above="@id/idButton"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/white_hint"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:gravity="start|top"/>
     
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/idButton"
+        android:textColor="@color/white"
         android:layout_margin="20dp"
         android:layout_alignParentBottom="true"
         android:text="@string/button"
